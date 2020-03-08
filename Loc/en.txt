@@ -1,0 +1,24 @@
+{
+	"reloadtweaks_menu_title": "Reload Tweaks",
+	"reloadtweaks_reloadcancel_title": "Enable Reload Cancelling",
+	"reloadtweaks_reloadcancel_desc": "Cancel weapon reloading on mouse click",
+	"reloadtweaks_preventcancel_title": "Prevent reload-cancelling at X %",
+	"reloadtweaks_preventcancel_desc": "Prevent reload-cancelling if a reload is X % done",
+	"reloadtweaks_freeswap_title": "Remove swapping restrictions",
+	"reloadtweaks_freeswap_desc": "Remove swapping restrictions",
+	"reloadtweaks_reloadstyle_title": "Reloding style",
+	"reloadtweaks_reloadstyle_desc": "Reloading style on empty clip. Automatic - automatic reload, Manual - can only reload by pressing the reload key",
+	"reloadtweaks_reloadstyle_auto": "Automatic",
+	"reloadtweaks_reloadstyle_vanilla": "Vanilla",
+	"reloadtweaks_reloadstyle_manual": "Manual",
+	"reloadtweaks_reloadcancel_barrelmag_title": "Cancel reloads for barrel magazines",
+	"reloadtweaks_reloadcancel_barrelmag_desc": "Allow reload cancelling for guns that use barrel magazines",
+	"reloadtweaks_preventruncancel_title": "Prevent run-cancelling a reload",
+	"reloadtweaks_preventruncancel_desc": "Prevent run-cancelling if a reload is X % done"
+	"reloadtweaks_realistic_title": "Realistic reload"
+	"reloadtweaks_realistic_desc": "Keep the bullet in the chamber when possible"
+	"reloadtweaks_throw_title": "Throw magazines"
+	"reloadtweaks_throw_desc": "Loose throwed magazines ammo when reloading"
+	"reloadtweaks_tased_title": "Tased reload"
+	"reloadtweaks_tased_desc": "Do not reload when your are tased"
+}

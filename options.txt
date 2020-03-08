@@ -1,0 +1,93 @@
+{
+	"menu_id": "reloadtweaks_options",
+	"parent_menu_id": "blt_options",
+	"title": "reloadtweaks_menu_title",
+	"back_callback": "callback_reloadtweaks_close",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "reload_style",
+			"title": "reloadtweaks_reloadstyle_title",
+			"description": "reloadtweaks_reloadstyle_desc",
+			"callback": "reloadtweaks_multichoice_clbk",
+			"items": [
+				"reloadtweaks_reloadstyle_auto",
+				"reloadtweaks_reloadstyle_vanilla",
+				"reloadtweaks_reloadstyle_manual"
+			],
+			"value": "reload_style"
+		},
+		{
+			"type": "divider",
+			"size": 8
+		},
+		{
+			"type": "toggle",
+			"id": "reload_cancel",
+			"title": "reloadtweaks_reloadcancel_title",
+			"description": "reloadtweaks_reloadcancel_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "reload_cancel"
+		},
+		{
+			"type": "divider",
+			"size": 1
+		},
+		{
+			"type": "toggle",
+			"id": "reload_cancel_barrelmag",
+			"title": "reloadtweaks_reloadcancel_barrelmag_title",
+			"description": "reloadtweaks_reloadcancel_barrelmag_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "reload_cancel_barrelmag"
+		},
+				{
+			"type": "divider",
+			"size": 1
+		},
+		{
+			"type": "slider",
+			"id": "reloadtweaks_preventcancel",
+			"title": "reloadtweaks_preventcancel_title",
+			"description": "reloadtweaks_preventcancel_desc",
+			"callback": "reloadtweaks_prevent_cancel_clbk",
+			"value": "prevent_reload_cancel",
+			"default_value": 0.3,
+			"min": 0,
+			"max": 1,
+			"step": 0.05
+		},
+		{
+			"type": "toggle",
+			"id": "prevent_run_cancel",
+			"title": "reloadtweaks_preventruncancel_title",
+			"description": "reloadtweaks_preventruncancel_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "prevent_run_cancel"
+		},
+		{
+			"type": "toggle",
+			"id": "reload_realistic",
+			"title": "reloadtweaks_realistic_title",
+			"description": "reloadtweaks_realistic_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "reload_realistic"
+		},
+		{
+			"type": "toggle",
+			"id": "reload_throw",
+			"title": "reloadtweaks_throw_title",
+			"description": "reloadtweaks_throw_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "reload_throw"
+		},
+		{
+			"type": "toggle",
+			"id": "reload_tased",
+			"title": "reloadtweaks_tased_title",
+			"description": "reloadtweaks_tased_desc",
+			"callback": "reloadtweaks_toggle_clbk",
+			"value": "reload_tased"
+		}
+	]
+}
