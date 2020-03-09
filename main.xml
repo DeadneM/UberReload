@@ -1,4 +1,4 @@
-<table name="BangHUD">
+<table name="UberReload">
     <AssetUpdates id="UberReload" version="1">
         <custom_provider version_api_url="https://raw.githubusercontent.com/DeadneM/UberReload/master/Version.txt" download_url="https://github.com/DeadneM/UberReload/archive/master.zip"/>
     </AssetUpdates>
