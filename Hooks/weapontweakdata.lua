@@ -187,7 +187,7 @@ Hooks:PostHook( WeaponTweakData, "init", "Tact_Reload", function(self)
 		"x_shrew", --"Akimbo M1911 Colt Defender"
 		"x_czech", --"Akimbo CZ automatic"
 		"x_beer", --"Akimbo Beretta 93r"
-		"x_stech", --"Akimbo BitterSweetLife"
+		"x_stech" --"Akimbo BitterSweetLife"
 	}
 	for i, wep_id in ipairs(tact_akimbo) do
 		self[wep_id].tactical_reload = 2
